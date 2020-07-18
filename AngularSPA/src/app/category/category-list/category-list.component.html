@@ -1,0 +1,30 @@
+<div class="container" style="margin-top: 50px;">
+    <h2 class="text-info">Category List </h2>
+   
+
+    <div class="p-4 border rounded">
+        <a class="btn btn-info"  routerLink="/create-category" >Create</a>
+
+        <table class="table"  style="margin-top: 20px;">
+            <thead class="thead-dark">
+                <tr>
+                  <th scope="col">S. NO.</th>
+                  <th scope="col">Category</th>
+                  <th>Change Status</th>
+                  <th>Edit</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr *ngFor = "let cat of categoryList; let i= index">
+                     <td>{{i+1}}</td>
+                     <td>{{cat.catgory}}</td>
+                     <td>
+                         <a class="btn btn-success" (click)="updateCatStatus(cat.id)" *ngIf = "cat.isactive==1">Active</a>
+                         <a class="btn btn-danger" (click)="updateCatStatus(cat.id)" *ngIf = "cat.isactive==0">InActive</a>
+                     </td>
+                    <td><a class="btn btn-info"  [routerLink]="['/edit-category', cat.id]" >Edit</a></td>
+                  </tr>
+              </tbody>
+        </table>
+    </div>
+</div>
