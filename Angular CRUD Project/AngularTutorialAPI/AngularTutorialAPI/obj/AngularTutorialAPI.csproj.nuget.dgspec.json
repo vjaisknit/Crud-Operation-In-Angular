@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\vs2019 project\\AngularTutorialAPI\\AngularTutorialAPI\\AngularTutorialAPI.csproj": {}
+    "E:\\Tuto Project\\ANGULAR 9 CRUD\\Angular CRUD Project\\AngularTutorialAPI\\AngularTutorialAPI\\AngularTutorialAPI.csproj": {}
   },
   "projects": {
-    "E:\\vs2019 project\\AngularTutorialAPI\\AngularTutorialAPI\\AngularTutorialAPI.csproj": {
+    "E:\\Tuto Project\\ANGULAR 9 CRUD\\Angular CRUD Project\\AngularTutorialAPI\\AngularTutorialAPI\\AngularTutorialAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\vs2019 project\\AngularTutorialAPI\\AngularTutorialAPI\\AngularTutorialAPI.csproj",
+        "projectUniqueName": "E:\\Tuto Project\\ANGULAR 9 CRUD\\Angular CRUD Project\\AngularTutorialAPI\\AngularTutorialAPI\\AngularTutorialAPI.csproj",
         "projectName": "AngularTutorialAPI",
-        "projectPath": "E:\\vs2019 project\\AngularTutorialAPI\\AngularTutorialAPI\\AngularTutorialAPI.csproj",
+        "projectPath": "E:\\Tuto Project\\ANGULAR 9 CRUD\\Angular CRUD Project\\AngularTutorialAPI\\AngularTutorialAPI\\AngularTutorialAPI.csproj",
         "packagesPath": "C:\\Users\\Vishal\\.nuget\\packages\\",
-        "outputPath": "E:\\vs2019 project\\AngularTutorialAPI\\AngularTutorialAPI\\obj\\",
+        "outputPath": "E:\\Tuto Project\\ANGULAR 9 CRUD\\Angular CRUD Project\\AngularTutorialAPI\\AngularTutorialAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
