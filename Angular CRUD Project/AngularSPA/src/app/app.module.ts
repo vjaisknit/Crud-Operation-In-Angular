@@ -9,6 +9,7 @@ import { EmployeeComponent } from './employee/employee.component';
 import { CategoryComponent } from './category/category.component';
 import { HeaderComponent } from './header/header.component';
 import { CategoryListComponent } from './category/category-list/category-list.component';
+import { CascadingDropdownComponent } from './dropdown/cascading-dropdown/cascading-dropdown.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CategoryListComponent } from './category/category-list/category-list.co
     EmployeeComponent,
     CategoryComponent,
     HeaderComponent,
-    CategoryListComponent
+    CategoryListComponent,
+    CascadingDropdownComponent
   ],
   imports: [
     BrowserModule,
